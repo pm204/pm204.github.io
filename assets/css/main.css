@@ -1570,7 +1570,7 @@
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
-		line-height: 1.75em;
+		line-height: 1.60em;
 	}
 
 	a {
@@ -1674,6 +1674,9 @@ blockquote {
 	position: relative; 
 }
 
+blockquote, q {
+		quotes:none;
+}
 	code {
 		background: #f7f7f7;
 		border-radius: 0.35em;
