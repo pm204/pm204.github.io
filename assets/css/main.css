@@ -1666,12 +1666,13 @@
 			margin: 3em 0;
 		}
 
-	blockquote {
-		border-left: solid 6px #efefef;
-		font-style: italic;
-		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 1.5em;
-	}
+blockquote {
+	font-size: 10pt;
+	font-style: normal !important;
+	font-weight: normal;
+	line-height: 1.5;
+	position: relative; 
+}
 
 	code {
 		background: #f7f7f7;
